@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+#page {width: 98vw; height: 99vh; margin: 0 auto;}
+
+.tube {
+    display: flex;
+    justify-content: center;  /* 가로 가운데 정렬 */
+    align-items: center;
+     overflow:hidden;
+    
+}
+
+.container { width: 100%; margin: 0.5rem auto; } 
+.content-box {float: left; width:100%;padding: 5px;}
+.content-box  img {
+    max-width: 100%;
+    height: auto;
+}
+
+.content-box:hover {scale: 1.27;transition: all ease 0.8s; }
+.clear {clear: both;}
+
+.product-area h2 {font-size: 1.5rem; padding: 1.5rem;}
+.product-list li {float: left;width: 50%;border: 1px solid var(--white);}
+.product-list li a {
+    display: block;
+    height: 2.75rem;
+    background-color: rgba(56, 182, 255);
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.product {
+    width:100%;
+    float: left;
+    padding: 5px;
+}
+.product  img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .container {width: 90%;}
+    .content-box {width: 33%;}
+    .product-list li {border: none; width: auto;}
+    .product {width: 25%;}
+    .product-list li a {background-color: white;color: black;
+        padding: 1rem 0.6rem 1rem 0.6rem;}
+        
+}
+@media screen and (min-width: 1024px) {
+    .container {width: 60%;}
+}

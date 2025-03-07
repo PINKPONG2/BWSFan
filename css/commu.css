@@ -1,0 +1,5 @@
+#page {width: 99vw; height: 99vh; margin: 0 auto;}
+.detail-list {font-size: 2rem;display: flex; align-items: center; justify-content: center;}
+.detail-list li{ display: inline-block; font-weight: bold; margin: 0 auto; }
+
+.jalist {display: flex; justify-content: center;}
