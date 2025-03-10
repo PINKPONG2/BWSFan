@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+KR&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 
 :root {
     /* Color styles */
@@ -51,8 +53,17 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'DungGeunMo';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
-    font-family: "Montserrat", "Noto Sans KR", serif;
+    font-family: "Roboto", sans-serif, 'DungGeunMo';
+   
+  
 }
 li {list-style-type: none;}
 
@@ -91,3 +102,5 @@ input[type="text"]:focus {
 
 .line { background-color:  rgba(56, 182, 255);height: 3px; border: 0; margin: 1rem 0;
 }
+
+
