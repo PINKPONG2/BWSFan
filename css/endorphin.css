@@ -7,12 +7,25 @@
     font-weight: normal;
     font-style: normal;
 }
-table{ background-color: rgb(187, 219, 238,0.5);     margin-left: auto;     margin-right: auto; margin-bottom: 1rem;  
-     font-family: 'DungGeunMo';}
+table{ 
+    background-color: rgb(187, 219, 238,0.5); 
+    background-image: url(../bws/water.png);
+    background-repeat: no-repeat; 
+    background-blend-mode: lighten ;  
+    background-position:center ;
+    background-size: contain;   
+    filter: opacity(0.8);
+    filter: drop-shadow(10px 10px 5px rgba(187, 219, 238, 0.5));
+    margin-left: auto;     
+    margin-right: auto; 
+    margin-bottom: 1rem;  
+    font-family: 'DungGeunMo';}
+    
+
 table, td, th {border-collapse: collapse;border-right: 2px solid rgba(56, 182, 255);padding: 8px;}
     th {border-bottom: 3px solid rgba(56, 182, 255);}
     td {border-bottom: 2px solid rgba(56, 182, 255);}
 
     /* TODO 아래쪽/오른쪽 흰색으로 변경 : 안하면 하늘색으로 칠해짐 */
-    .bottom {border-bottom: 2px solid white;}
-    .right {border-right: 2px solid white;}
+    .bottom {border-bottom: 2px solid rgb(0,0,0,0);}
+    .right {border-right: 2px solid rgb(0,0,0,0);}
