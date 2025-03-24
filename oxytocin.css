@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+#page {width: 98vw; height: 99vh; margin: 0 auto;}
+
+
+.container4 {width: 100%; margin: 2rem auto;}
+.content-box4 {float: left; width:100%;padding: 5px;}
+.content-box4  img {
+    max-width: 100%;
+    height: auto;
+}
+
+.content-box4:hover {scale: 1.27;transition: all ease 0.8s; }
+.clear {clear: both;}
+
+
+
+.container5 {width: 100%; margin: 2rem auto;}
+.content-box5 {float: left; width:100%;padding: 5px;}
+.content-box5  img {
+    max-width: 100%;
+    height: auto;
+}
+
+.content-box5:hover {scale: 1.27;transition: all ease 0.8s; }
+.clear {clear: both;}
+/* div {
+    display: block;
+    unicode-bidi: isolate;
+} */
+
+
+.container6 {width: 100%; margin: 2rem auto;}
+.content-box6 {float: left;  width:100%;padding: 5px;}
+.content-box6  img {
+    max-width: 100%;
+    height: auto;
+} 
+
+.content-box6:hover {scale: 1.27;transition: all ease 0.8s; }
+
+
+
+
+@media screen and (min-width: 768px) {
+    .container5 {width: 90%;}
+    .content-box5 {width: 25%;}
+    .container4 {width: 90%;}
+    .content-box4 {width: 20%;}
+    .container6 {width: 90%;}
+    .content-box6 {width: 50%;}
+
+
+}
+@media screen and (min-width: 1024px) {
+    .container5 {width: 60%;}
+    .container6 {width: 60%;}
+}
